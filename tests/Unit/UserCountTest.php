@@ -15,7 +15,7 @@ class UserCountTest extends TestCase
      */
     public function testExample()
     {
-        $car = Number of Records;
+        $car = NumberofRecords;
         $this->assertTrue(true);
     }
 }
