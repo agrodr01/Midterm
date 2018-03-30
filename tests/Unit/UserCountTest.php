@@ -15,7 +15,7 @@ class UserCountTest extends TestCase
      */
     public function testExample()
     {
-        $car = year;
+        $car = make;
         $this->assertTrue(true);
     }
 }
