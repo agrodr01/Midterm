@@ -15,7 +15,7 @@ class UserCountTest extends TestCase
      */
     public function testExample()
     {
-        $car = insert;
+        $car = update;
         $this->assertTrue(true);
     }
 }
