@@ -15,7 +15,7 @@ class UserInsertTest extends TestCase
      */
     public function testExample()
     {
-        $user = User:: created(1);
+        $user = User:: delete(1);
 
         $this->assertTrue(true);
     }
