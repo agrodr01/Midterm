@@ -65,6 +65,8 @@
             @else
                 <a href="{{ route('login') }}">Login</a>
                 <a href="{{ route('register') }}">Register</a>
+                <a href="{{ route("contact")}}">Contact</a>
+                <a href="{{ route("about")}}">About</a>
             @endauth
         </div>
     @endif
@@ -72,16 +74,6 @@
     <div class="content">
         <div class="title m-b-md">
             Laravel
-        </div>
-
-        <div class="links">
-            <li class="nav-item">
-                <a class="nav-link" href="{{route("about")}}">About</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="{{route("contact")}}">Contact</a>
-            </li>
-
         </div>
     </div>
 </div>
